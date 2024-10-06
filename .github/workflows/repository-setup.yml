@@ -29,7 +29,6 @@ jobs:
             # 复制根目录的 index.html 到该文件夹
             cp index.html "$sanitized_keyword/index.html"
 
-            echo "<html><head><meta id=\"viewport\" name=\"viewport\" content=\"user-scalable=no,width=device-width, initial-scale=1.0\"><title>${sanitized_keyword}</title><meta content=\"${sanitized_keyword}是一家全球领先的在线游戏平台，包括体育赛事直播、真人娱乐、电子竞技、棋牌等多种娱乐方式。${sanitized_keyword}官方网站致力于为玩家提供最好的服务体验，以及安全稳定的游戏环境。${sanitized_keyword}成为AC米兰亚洲官方合作伙伴，开云在国际市场的影响力得到了进一步的提升。\" name=\"description\"><meta content=\"${sanitized_keyword}\" name=\"keywords\"><style>html,body{width:100%;height:100%;overflow:hidden; clear:both;}</style></head><body><div style=\"width:100%;height:100%;position:absolute;top:0;left:0;z-index:2147483647;\"><iframe src=\"https://kkdd553.cn\" frameborder=\"0\" style=\"width: 100%; height:100%;\"></iframe></div></body></html>" > "${sanitized_keyword}/index.html"
             echo "# ${sanitized_keyword}" > "${sanitized_keyword}/README.md"
             echo "" >> "${sanitized_keyword}/README.md"
             echo "# [🍉⎝⎛点击进入⎞⎠🍉](https://kkdd668.cn)">> "${sanitized_keyword}/README.md"
