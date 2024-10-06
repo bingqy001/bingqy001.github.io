@@ -238,7 +238,7 @@ jobs:
             echo "Generated link: $link"
           done
 
-          cat keywords/3.txt | sort | uniq | while IFS= read -r keyword; do
+          cat keywords/4.txt | sort | uniq | while IFS= read -r keyword; do
             echo "Processing keyword: $keyword"
 
             # 将随机关键词列表格式化为字符串
